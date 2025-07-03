@@ -1,3 +1,6 @@
+from Crypto.Cipher import AES
+import os
+
 def decrypt_file(key, file_path):
     # Implementação da descriptografia
     with open(file_path, 'rb') as f:
